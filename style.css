@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&family=Oswald:wght@200&family=Roboto:wght@500&display=swap');
+.container{
+    font-family: 'Roboto', sans-serif;
+}
+   
+.logo{
+    margin: 0px 597px ;
+}
+
+.card{
+    border: 1px solid rgb(226, 217, 217);
+    border-radius: 4px;
+    height: 280px;
+    width: 346px;
+    margin: 0px 37%;
+}
+
+.mg-0{
+    margin: 0px;
+}
+
+h1{
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+
+.card-content{
+    padding: 26px;
+}
+
+.label{
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 600;
+    padding-left: 3px;
+}
+
+.mail{
+    width: 95%;
+    height: 23px;
+    padding: 3px 7px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    box-shadow: 0 1px rgb(228 121 17 / 50%);
+}
+
+.mail:focus{
+    box-shadow: 0 0 3px 2px rgb(228 121 17);
+}
+
+.btn{
+    width: 100%;
+    border: 1px solid #df8e3a;
+    text-align: center;
+    background-color: #f0c568;
+    border-radius: 3px;
+    margin: 16px 0 16px 0;
+    height: 31px;
+}
+
+.btn:hover{
+    background-color: #f0bf57;
+    cursor: pointer;
+}
+
+p,a{
+    font-size: 12px;
+}
+
+a{
+    color: #0066c0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c45500;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.help{
+    margin-top: 18px;
+}
+
+.bi{
+    color:#6b6a6a;
+}
+
+.bi:hover{
+    cursor: pointer;
+}
+
+hr{
+    width: 26%;
+    margin-top: 26px;
+    color: rgb(226, 217, 217);
+    position: relative;
+    background-color: #f0bf57;
+}
+
+.absolute{
+    position: absolute;
+    background-color:white;
+	color:lightgray;
+    border: none;
+    left: 620px;
+    bottom: 245px;
+}
+
+.btn-account{
+    width: 346px;
+    margin: 16px 37%;
+    height: 31px;
+    border: 1px solid #adb1b8 ;
+    text-align: center;
+    background-color: #e7e9ec;
+    border-radius: 3px;    
+}
+
+.btn-account:hover{
+    background-color: #d7d9db;
+    cursor: pointer;
+}
+
+.btn-account:focus{
+    box-shadow: 0 0 3px 2px rgb(228 121 17);
+    cursor: pointer;
+}
+
+.footer hr{
+    width: 100%;
+    box-shadow: 0 100px 150px 20px rgb(173, 172, 170);
+}
+
+.footer{
+    text-align: center;
+}
+
+.link a{
+    padding: 8px 25px 8px 0;
+}
+
